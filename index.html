@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Theme tesla</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="header" id="header">
+        <nav>
+            <img src="./images/logo.png" class="logo" >
+            <ul>
+                <li><a href="#" id="Models">Model S</a></li>
+                <li><a href="#"id="Model3">Model 3</a></li>
+                <li><a href="#"id="Modelx">Model X</a></li>
+                <li><a href="#"id="Modely">Model Y</a></li>
+            </ul>
+            <a href="#" class="btn"> Reserve now</a>
+        </nav>
+            <div class="info">
+                <div >
+                    <h2>1.9 S</h2>
+                    <P>60 mph</P>
+                </div>
+                <div >
+                    <h2>200 mph</h2>
+                    <P>Top speed></P>
+                </div>
+                <div >
+                    <h2>396 mi</h2>
+                    <P>Max range</P>
+                </div>
+                <div class="line">
+                </div>
+                <div >
+                 <h2>Model S</h2>
+                </div>
+            </div>
+    </div>
+
+
+        <script>
+            var hearder= document.getElementById("header");
+            var ms= document.getElementById("Models");
+            var m3= document.getElementById("Model3");
+            var mx= document.getElementById("Modelx");
+            var my= document.getElementById("Modely");
+
+            ms.onclick = function(){
+                header.style.backgroundimage= "url(./images/image-1.png)";
+            }
+            m3.onclick = function(){
+                header.style.backgroundImage= "url(./images/image-2.png)";
+            }
+            mx.onclick = function(){
+                header.style.backgroundImage= "url(./images/image-3.png)";
+            }
+            my.onclick = function(){
+                header.style.backgroundImage= "url(./images/image-4.png)";
+                
+            }
+        </script>
+</body>
+</html>
