@@ -36,7 +36,7 @@
                 <div class="line">
                 </div>
                 <div >
-                 <h2>Model S</h2>
+                 <h2  id="Model">Model S</h2>
                 </div>
             </div>
     </div>
@@ -48,18 +48,24 @@
             var m3= document.getElementById("Model3");
             var mx= document.getElementById("Modelx");
             var my= document.getElementById("Modely");
+            var model = document.getElementById("Model");
 
             ms.onclick = function(){
                 header.style.backgroundimage= "url(./images/image-1.png)";
+                model.innerHTML = "Model s";
             }
             m3.onclick = function(){
                 header.style.backgroundImage= "url(./images/image-2.png)";
+                model.innerHTML = "Model 3";
             }
             mx.onclick = function(){
                 header.style.backgroundImage= "url(./images/image-3.png)";
+                model.innerHTML = "Model x";
             }
             my.onclick = function(){
                 header.style.backgroundImage= "url(./images/image-4.png)";
+                model.innerHTML = "Model y";
+                
                 
             }
         </script>
